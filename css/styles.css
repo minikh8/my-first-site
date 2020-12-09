@@ -1,0 +1,107 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: #e8ffff;
+}
+.box-one{
+  height: 760px;
+  background-image: url(night.jpg);
+background-repeat: no-repeat;
+position: absolute;
+}
+h1{
+    font-weight: 900;
+    font-size: 6rem;
+    color: #b9fffc;
+}
+h2{
+  font-weight: 900;
+  font-size: 4.5rem;
+  color: #b9fffc;
+}
+h3{
+  color: #99f3bd;
+}
+.intro{
+  padding-top: 15%;
+  padding-left: 20%;
+  text-align: center;
+ font-family: "Satisfy", cursive;
+}
+.box-two{
+  text-align: right;
+  padding: 20px;
+  margin-top: 300px;
+  background-image: url(star.jpg);
+  background-repeat: no-repeat;
+ position: absolute;
+}
+.my-skills{
+  margin: 50px 300px 0;
+  font-size: 3rem;
+}
+.skill-row{
+  width: 65%;
+  margin: 100px 50px 100px auto;
+  text-align: left;
+  text-align: justify;
+}
+.math-img{
+ width: 28%;
+  float: left;
+  margin-right: 30px;
+}
+.comp-img{
+ width: 28%;
+  float: right;
+  margin-left: 30px;
+}
+.box-fixed{
+  width: 400px;
+  height: 765px;
+  position: fixed;
+background-color: grey;
+background-color: rgba(255,255,255,0.4);
+}
+.profile{
+  text-align: center;
+  margin: 3rem 5rem;
+  padding: 5px;
+  line-height: 2;
+}
+.profile-pic{
+  width: 90%;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.btn{
+  margin: 2rem 1rem;
+}
+.copyright{
+  color: #686d76;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+@media (max-width: 811px){
+  .box-one{
+    height: 800px;
+  }
+}
+@media (max-width: 1300px){
+  .profile-pic{
+    width: 50%;
+    margin: 3rem 0;
+  }
+  .profile{
+font-size: 1rem;
+margin: 0;
+  }
+  .box-fixed{
+    width: 150px;
+  }
+  .skill-row{
+    font-size: 1.2rem;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+}
